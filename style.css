@@ -1,0 +1,257 @@
+ body{
+  margin: 0px;
+  font-family: Thesis,arial,helvetic,sans-serif;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size:100.01%;
+}
+
+#wrapper{
+}
+.festebreite{
+ width:1100px;
+ margin:0 auto;
+}
+
+#headtop{
+  float: left;
+  background-color: black;
+  width:100%;
+  height: 100px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#headtop li{
+  list-style: none;
+  float: left;
+  margin-top:-35px;
+  padding-right: 10px;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right:0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  padding: 28px 25px;
+  border: none;
+  margin-top: -30px;
+  float: right;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px; }
+  .sidebar a {font-size: 18px;}
+}
+.toplinkrecht a{
+  float: right;
+  margin-top:20px;
+  padding-right:10px;
+  padding-left:10px;
+  color: black;
+  font-weight: bold;
+}
+
+.toplinkrecht input{
+  float: right;
+  padding-right: 50px;
+  margin-right: 5px;
+  margin-top:20px;
+  height:20px;
+  background-image:url("img/google-web-search_v3.png");
+  background-repeat:no-repeat;
+  background-position:right;
+}
+a:hover {
+  color: blue;
+}
+a:link{
+  text-decoration:none;
+}
+
+#navbar{
+  float: left;
+  display: inline-block;
+  background-color: black;
+  width: 1080px;
+  margin-left: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.dropdown{
+  float:left;
+  overflow: hidden;
+  margin-top:0px;
+
+}
+ .dropdown .dropbtn  {
+   font-size: 16px;
+   color: white;
+   width:125px;
+   height:150px;
+   padding-right:15px;
+   padding-left:24px;
+   background-color: inherit;
+   font-family: inherit;
+}
+ .dropdown:hover .dropbtn{
+ background-color: red;
+ transition: all 0.5s ease;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  z-index: 1;
+  margin-top:0px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#bilderBox{
+  background-color: white;
+  margin-top: 30px;
+  margin-right:50px;
+  width: 1100px;
+}
+.bilderabstand{
+  margin:8px;
+}
+
+.bildundtext{
+  float:left;
+  overflow:auto;
+  width: 263px;
+  height: 405px;
+  background-color: #ddd;
+  margin:5px;
+  text-align: center;
+
+}
+.bildtext{
+  float: bottom;
+}
+.fetttext{
+  font-weight: bold;
+}
+
+#bildpreis p{
+  display: inline-block;
+  margin: 5px;
+  float: right;
+  text-align: ;
+}
+
+.reduktion{
+  font-size: 10px;
+}
+.preis{
+  font-size: 20px;
+  font-weight: bold;
+  color:red ;
+}
+#kilo .perkilo{
+  font-size: 10px;
+}
+.Einkauflogo input{
+  width: 55px;
+  padding-top:12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom:5px;
+}
+
+.minuslogo{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+.pluslogo{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom:-30px;
+  padding-top:2px;
+  margin-top:-10px;
+  border-radius: 5px;
+}
+
+.wagen{
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:9px;
+  
+}
+.großebox{
+  margin-top: 15px;
+  border: 5px white solid;
+}
+.clearing{
+  clear: both;
+}
